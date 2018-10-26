@@ -2,7 +2,8 @@ package Map.The;
 
 import java.util.*;
 
-import Character.Heros.HouYi;
+import Character.Position;
+import Heros.*;
 
 public class BasicMap {
 	public static void show()
@@ -40,23 +41,30 @@ public class BasicMap {
 		Scanner reader=new Scanner(System.in);
 		String chaozuo;
 		int x,y;
-//		HouYi houyi=new HouYi("A",19,0);
-//		houyi.move(map, 19, 0);
+		HouYi houyi=new HouYi("A",new Position(19, 0));
+		houyi.move(map, 19, 0);
+		HouYi houyi2=new HouYi("B",new Position(19, 5));
+		houyi2.move(map, 19, 5);
 		show();
 		while(true)
 		{
 			chaozuo=reader.next();
-			if(chaozuo.equals("move"))
+			if(chaozuo.equals("firstSkill"))
 			{
-				x=reader.nextInt();
-				y=reader.nextInt();
+				houyi.firstSkill(map);
+			}
+			else break;
+//			if(chaozuo.equals("move"))
+//			{
+//				x=reader.nextInt();
+//				y=reader.nextInt();
 //				houyi.move(map, x, y);
-				show();
-			}
-			else {
-				System.out.println("Œ¥ÕÍ…∆");
-				break;
-			}
+//				show();
+//			}
+//			else {
+//				System.out.println("Œ¥ÕÍ…∆");
+//				break;
+//			}
 		}
 		reader.close();
 		

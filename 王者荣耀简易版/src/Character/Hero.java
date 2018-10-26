@@ -1,10 +1,23 @@
 package Character;
 
-public interface Hero{
-	public Attribute getAtt();
-	public Position getPOS();
-	public void setPOS(int x,int y);
-	public void move(String map[][],int x,int y);
-	public void attack();
-	public int die();
+public abstract class Hero{
+	private String heroName;
+	public Position pos;
+	public void setHeroName(String heroName)
+	{
+		this.heroName=heroName;
+	}
+	public String getHeroName() {
+		return heroName;
+	}
+	public Attribute att;
+	public void setAttribute(Attribute att)
+	{
+		this.att=att;
+	}
+	
+	public abstract void normalAttack(Hero hero);
+//	public void move(Position pos1) {
+//		this.pos=pos1;
+//	}
 }
