@@ -10,4 +10,7 @@ public class Position {
 		this.x=x;
 		this.y=y;
 	}
+	public Position getPosition() {
+		return new Position(this.x, this.y);
+	}
 }

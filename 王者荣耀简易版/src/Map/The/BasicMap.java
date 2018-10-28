@@ -51,7 +51,7 @@ public class BasicMap {
 			chaozuo=reader.next();
 			if(chaozuo.equals("firstSkill"))
 			{
-				houyi.firstSkill(map);
+				houyi.activeSkill(map);
 			}
 			else break;
 //			if(chaozuo.equals("move"))
