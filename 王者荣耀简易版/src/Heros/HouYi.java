@@ -2,7 +2,7 @@ package Heros;
 
 import Character.*;
 
-public class HouYi extends Hero implements skill {
+public class HouYi extends Hero implements Skill {
 //	private String name;
 //	private Position pos;
 	private Attribute att=new Attribute(500,500,0);
@@ -20,7 +20,7 @@ public class HouYi extends Hero implements skill {
 			System.out.println(super.getHeroName()+"对"+hero.getHeroName()+"造成了"+this.attack+"点伤害");
 		}
 	@Override
-		public void firstSkill(String[][] map) {
+		public void activeSkill(String[][] map) {
 			// TODO Auto-generated method stub
 			String[][] tempMap=map;
 			for(int i=1;i<20;i++)
@@ -30,6 +30,11 @@ public class HouYi extends Hero implements skill {
 				if(i==5)
 					tempMap[19][i]="B";
 				else tempMap[19][i]="0";			}
+		}
+	@Override
+		public void passiveSkill(String[][] map) {
+			// TODO Auto-generated method stub
+			
 		}
 	public static void show(String[][] map)
 	{
