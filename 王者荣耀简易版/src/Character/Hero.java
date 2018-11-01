@@ -4,7 +4,7 @@ package Character;
  * @author String
  *
  */
-public abstract class Hero{
+public abstract class Hero implements Skill{
 	private String heroName;
 	public Position pos;
 	/**
@@ -36,12 +36,9 @@ public abstract class Hero{
 	 * @param hero
 	 */
 	public abstract void normalAttack(Hero hero);
-//	/**
-//	 * 移动方法
-//	 * @param pos1
-//	 */
-//	public abstract void move(Position pos1);
-//	public void move(Position pos1) {
-//		this.pos=pos1;
-//	}
+	/**
+	 * 移动方法
+	 * @param direction
+	 */
+	public abstract void move(String direction);
 }

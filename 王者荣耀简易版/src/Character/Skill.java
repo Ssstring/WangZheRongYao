@@ -5,6 +5,14 @@ package Character;
  *
  */
 public interface Skill {
+	/**
+	 * 主动技能
+	 * @param map
+	 */
 	public void activeSkill(String map[][]);
+	/**
+	 * 被动技能
+	 * @param map
+	 */
 	public void passiveSkill(String map[][]);
 }

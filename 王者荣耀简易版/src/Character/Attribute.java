@@ -8,7 +8,6 @@ public class Attribute {
 	public int HP;
 	public int MP;
 	public int EXP;
-	public int ATK;
 	/**
 	 * 构造方法
 	 */
@@ -28,17 +27,5 @@ public class Attribute {
 		this.HP=HP;
 		this.MP=MP;
 		this.EXP=EXP;
-	}
-	public void hurtHP(int hurt)
-	{
-		HP-=hurt;
-	}
-	public void useMP(int use)
-	{
-		MP-=use;
-	}
-	public void getEXP(int get)
-	{
-		EXP+=get;
 	}
 }

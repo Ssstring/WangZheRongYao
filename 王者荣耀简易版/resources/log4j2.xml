@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration status="OFF">
+	<appenders>
+		<Console name="myConsole" target="SYSTEM OUT">
+			<PatternLayout pattern="[%-5p][%d{yyyy-MM-dd HH:mm:ss}] [%c %L] %m%n" />
+		</Console>
+		<File name="myLogFile" fileName="log/test.log" append="true">
+			<PatternLayout pattern="[%-5p][%d{yyyy-MM-dd HH:mm:ss}] [%c %L] %m%n" />
+		</File>
+		<RollingFile name="myRollingFile" fileName="logs/app.log"
+					filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout pattern="[%-5p][%d{yyyy-MM-dd HH:mm:ss}] [%c %L] %m%n" />
+			<SizeBasedTriggeringPolicy size="2KB"/>
+		</RollingFile>
+	</appenders>
+	
+	<loggers>
+		<!-- 
+		<logger name="全限定类名或接口名" level="info">
+			<appender-ref ref="myConsole"/>
+		</logger>
+		 -->
+		 <root level="trace">
+		 	<appender-ref ref="myConsole" />
+		 	<appender-ref ref="myLogFile" />
+		 	<appender-ref ref="myRollingFile" />
+		 </root>
+	</loggers>
+</configuration>
