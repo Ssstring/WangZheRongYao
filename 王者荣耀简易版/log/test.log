@@ -35,3 +35,27 @@
 [DEBUG][2018-10-29 23:14:53] [Map.The.MapControl 68] AHP=500
 [DEBUG][2018-10-29 23:15:00] [Map.The.MapControl 117] Ause active skill
 [DEBUG][2018-10-29 23:15:00] [Map.The.MapControl 68] AHP=500
+[DEBUG][2018-11-01 17:45:40] [Map.The.MapControl 99] add HouYipos(19,0)
+[DEBUG][2018-11-01 17:45:40] [Map.The.MapControl 71] AHP=500
+[DEBUG][2018-11-01 18:11:56] [Map.The.MapControl 113] add HouYipos(19,0)
+[DEBUG][2018-11-01 18:11:56] [Map.The.MapControl 85] AHP=500
+[DEBUG][2018-11-01 18:11:56] [Map.The.MapControl 113] add LuBanQiHaopos(19,5)
+[DEBUG][2018-11-01 18:11:56] [Map.The.MapControl 85] AHP=500
+[DEBUG][2018-11-01 18:12:15] [Map.The.MapControl 113] add HouYipos(19,0)
+[DEBUG][2018-11-01 18:12:15] [Map.The.MapControl 85] AHP=500
+[DEBUG][2018-11-01 18:12:15] [Map.The.MapControl 113] add LuBanQiHaopos(19,5)
+[DEBUG][2018-11-01 18:12:15] [Map.The.MapControl 85] AHP=500
+[DEBUG][2018-11-01 18:12:28] [Map.The.MapControl 113] add HouYipos(19,0)
+[DEBUG][2018-11-01 18:12:28] [Map.The.MapControl 113] add LuBanQiHaopos(19,5)
+[DEBUG][2018-11-01 18:13:10] [Map.The.MapControl 113] add HouYipos(19,0)
+[DEBUG][2018-11-01 18:13:10] [Map.The.MapControl 113] add LuBanQiHaopos(19,5)
+[DEBUG][2018-11-01 18:13:35] [Map.The.MapControl 113] add HouYipos(19,0)
+[DEBUG][2018-11-01 18:13:35] [Map.The.MapControl 113] add LuBanQiHaopos(19,5)
+[DEBUG][2018-11-01 18:14:37] [Map.The.MapControl 113] add HouYipos(19,0)
+[DEBUG][2018-11-01 18:14:37] [Map.The.MapControl 113] add LuBanQiHaopos(19,5)
+[DEBUG][2018-11-01 18:14:37] [Map.The.MapControl 125] move to pos(18,0)
+[DEBUG][2018-11-01 18:14:37] [Map.The.MapControl 56] move
+[DEBUG][2018-11-01 18:15:26] [Map.The.MapControl 113] add HouYipos(19,0)
+[DEBUG][2018-11-01 18:15:27] [Map.The.MapControl 113] add LuBanQiHaopos(19,5)
+[DEBUG][2018-11-01 18:15:27] [Map.The.MapControl 125] move to pos(18,0)
+[DEBUG][2018-11-01 18:15:27] [Map.The.MapControl 56] move
