@@ -1,11 +1,11 @@
 package Map.The;
 
 import java.util.*;
-
+import java.lang.*;
 import Character.Position;
 import Heros.*;
 
-public class BasicMap implements MapAttachments {
+public class BasicMap implements MapAttachments,Runnable {
 	/**
 	 * 展示地图
 	 */
@@ -20,6 +20,16 @@ public class BasicMap implements MapAttachments {
 		}
 		System.out.println();
 		}
+	public synchronized void run()
+	{
+		for(int i=0;i<100;i++)
+		{
+			System.out.println("第"+i+"秒");
+			this.show(map);
+			try{Thread.sleep(1000);}
+			catch(InterruptedException e){}
+		}
+	}
 	/**
 	 * 存储地图
 	 */

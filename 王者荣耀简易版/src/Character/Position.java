@@ -1,7 +1,7 @@
 package Character;
 /**
  * 存储英雄所在的位置
- * @author hasee
+ * @author String
  *
  */
 public class Position {

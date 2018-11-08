@@ -1,19 +1,23 @@
 package Map.The;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.PrintWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.omg.PortableServer.THREAD_POLICY_ID;
+
 import Character.*;
 import Heros.*;
 
 
-public class MapControl  {
+public class MapControl implements Runnable {
 //	public static File file=new File("scores.txt");
-	public static ArrayList<Hero> heros=new ArrayList<>();
+	public static ArrayList<Hero> heros=new ArrayList<Hero>();
 	public static BasicMap basicMap=new BasicMap();
 	public static String chaozuo,name,heroType;
 	public static int x,y,num;
@@ -22,14 +26,29 @@ public class MapControl  {
 	 * 主方法
 	 * @param args
 	 */
-	public static void main(String[] args) throws IOException {
+	public void run()
+	{
+		try {
+			judge();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static void main(String []args) throws IOException{
+		Thread t1=new Thread(basicMap);
+		Thread t2=new Thread(new MapControl());
+		t1.start();
+		t2.start();
+	}
+	public static void judge() throws IOException {
 		File file=new File("scores.txt");
 		Scanner reader=new Scanner(file);
 		if(!file.exists())
 			try (PrintWriter output = new PrintWriter(file);) {
 			
 			}
-		basicMap.show(basicMap.map);
+//		basicMap.show(basicMap.map);
 		while(true)
 		{
 			chaozuo=reader.next();
@@ -43,7 +62,7 @@ public class MapControl  {
 				x=reader.nextInt();
 				y=reader.nextInt();
 				Add(heroType,name,x,y);
-				basicMap.show(basicMap.map);
+//				basicMap.show(basicMap.map);
 			}
 			/**
 			 * 移动英雄
@@ -74,6 +93,8 @@ public class MapControl  {
 			else if(chaozuo.equals("end"))
 				break;
 //			Die();
+			try{Thread.sleep(1000);}
+			catch(InterruptedException e){}
 		}
 	}
 	/**
@@ -123,7 +144,7 @@ public class MapControl  {
 		heros.get(num).move(direction);
 		basicMap.map[heros.get(num).pos.x][heros.get(num).pos.y]=heros.get(num).getHeroName();
 		logger.debug("move to pos("+heros.get(num).pos.x+","+heros.get(num).pos.y+")");
-		basicMap.show(basicMap.map);
+//		basicMap.show(basicMap.map);
 	}
 	/**
 	 * 主动技能方法
