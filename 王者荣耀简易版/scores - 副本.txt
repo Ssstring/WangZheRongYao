@@ -1,11 +1,14 @@
 add
+no
 HouYi
 A
-19 0
+18 0
 add
-LuBanQiHao
+yes
+HouYi
 B
 19 5
 move
-1
+0
 up
+end

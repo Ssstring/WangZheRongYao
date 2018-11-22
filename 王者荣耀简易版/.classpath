@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="Character/Heros/HouYi.java" kind="src" path="src"/>
-	<classpathentry kind="src" path="test"/>
+	<classpathentry including="CharacterTest/BasicMapTest.java|CharacterTest/HouYiTest.java|CharacterTest/MapControlTest.java" kind="src" path="test"/>
 	<classpathentry kind="src" path="resources"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="log4j-api-2.11.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="log4j-core-2.11.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

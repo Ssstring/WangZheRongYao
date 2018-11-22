@@ -10,14 +10,6 @@ public class Attribute {
 	public int EXP;
 	/**
 	 * 构造方法
-	 */
-	public Attribute() {
-		HP=0;
-		MP=0;
-		EXP=0;
-	}
-	/**
-	 * 构造方法
 	 * @param HP
 	 * @param MP
 	 * @param EXP
