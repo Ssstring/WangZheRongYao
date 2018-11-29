@@ -2066,3 +2066,129 @@
 [DEBUG][2018-11-21 22:44:41] [Map.The.MapControl 115] BHP=500
 [DEBUG][2018-11-21 22:44:41] [Map.The.MapControl 115] AHP=500
 [DEBUG][2018-11-21 22:44:41] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 17:54:35] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-26 17:54:35] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 17:54:36] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-26 17:54:36] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 17:54:36] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 17:54:37] [Map.The.MapControl 147] move to pos(17,0)
+[DEBUG][2018-11-26 17:54:37] [Map.The.MapControl 84] move
+[DEBUG][2018-11-26 17:54:37] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 17:54:37] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 17:54:42] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-26 17:54:42] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 17:54:43] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-26 17:54:43] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 17:54:43] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 17:54:44] [Map.The.MapControl 147] move to pos(17,0)
+[DEBUG][2018-11-26 17:54:44] [Map.The.MapControl 84] move
+[DEBUG][2018-11-26 17:54:44] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 17:54:44] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 19:52:28] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-26 19:52:28] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 19:52:29] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-26 19:52:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 19:52:29] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 19:52:30] [Map.The.MapControl 147] move to pos(17,0)
+[DEBUG][2018-11-26 19:52:30] [Map.The.MapControl 84] move
+[DEBUG][2018-11-26 19:52:30] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 19:52:30] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 21:08:45] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-26 21:08:45] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 21:08:46] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-26 21:08:46] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 21:08:46] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-26 21:08:47] [Map.The.MapControl 147] move to pos(17,0)
+[DEBUG][2018-11-26 21:08:47] [Map.The.MapControl 84] move
+[DEBUG][2018-11-26 21:08:47] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-26 21:08:47] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-27 23:57:23] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-27 23:57:23] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-27 23:57:24] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-27 23:57:24] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-27 23:57:24] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-27 23:57:25] [Map.The.MapControl 147] move to pos(17,0)
+[DEBUG][2018-11-27 23:57:25] [Map.The.MapControl 84] move
+[DEBUG][2018-11-27 23:57:25] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-27 23:57:25] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:19:52] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-28 00:19:52] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:19:53] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-28 00:19:53] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:19:53] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:27] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-28 00:20:27] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:28] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-28 00:20:28] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:28] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:28] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-28 00:20:28] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:28] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:28] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 147] move to pos(17,0)
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 84] move
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:29] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 147] move to pos(16,0)
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 84] move
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:30] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 147] move to pos(15,0)
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 84] move
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:31] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 139] add HouYipos(18,0)
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:32] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 139] add HouYipos(19,5)
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:33] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 147] move to pos(14,0)
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 84] move
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] BHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] AHP=500
+[DEBUG][2018-11-28 00:20:34] [Map.The.MapControl 115] BHP=500
