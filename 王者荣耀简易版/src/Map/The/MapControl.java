@@ -26,7 +26,7 @@ public class MapControl implements Runnable {
 	 * 线程，不断判断输入输出
 	 * @param args
 	 */
-	public synchronized void run()
+	public void run()
 	{
 		File file=new File("scores.txt");
 		try {
@@ -70,7 +70,8 @@ public class MapControl implements Runnable {
 				Add(heroType,name,x,y);
 				if(isRobot.equals("yes"))
 				{
-					basicMap.heros.get(basicMap.heros.size()-1).run();
+					Thread t=new Thread(basicMap.heros.get(basicMap.heros.size()-1));
+					t.start();
 				}
 			}
 			/**

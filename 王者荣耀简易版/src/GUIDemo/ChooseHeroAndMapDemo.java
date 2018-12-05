@@ -3,7 +3,6 @@ package GUIDemo;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicButtonUI;
-
 import Map.The.MapControl;
 
 //import Map.The.MyMouseListener;

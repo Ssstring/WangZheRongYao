@@ -13,7 +13,7 @@ import Map.The.MapControl;
  * @author String
  *
  */
-public class LuBanQiHao extends Hero implements Skill,Robot,Runnable {
+public class LuBanQiHao extends Hero{
 	
 	private Attribute att=new Attribute(500,500,0);
 	public int attack=50;
@@ -60,15 +60,6 @@ public class LuBanQiHao extends Hero implements Skill,Robot,Runnable {
 			pos.y--;
 		else if(direction.equals("right"))
 			pos.y++;
-	}
-	/**
-	 * 普通攻击
-	 */
-	@Override
-	public void normalAttack(Hero hero) {
-		// TODO Auto-generated method stub
-		hero.getAttribute().HP-=super.getAttack();
-		System.out.println(super.getHeroName()+"对"+hero.getHeroName()+"造成了"+super.getAttack()+"点伤害");
 	}
 	/**
 	 * 线程run方法

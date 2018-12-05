@@ -1,12 +1,7 @@
 package Heros;
 
-import org.junit.rules.TestName;
-
-import com.sun.swing.internal.plaf.basic.resources.basic;
-
 import Character.*;
 import Map.The.BasicMap;
-import Map.The.MapAttachments;
 import Map.The.MapControl;
 /**
  * 一个具体的英雄：后羿
@@ -15,7 +10,7 @@ import Map.The.MapControl;
  * @since JDK 1.8
  *
  */
-public class HouYi extends Hero implements Skill,Runnable,Robot {
+public class HouYi extends Hero {
 	/**
 	 * 设置主动技能伤害，ps：此处可以用数组来存储伤害，为英雄等级提升做准备
 	 */
@@ -32,15 +27,6 @@ public class HouYi extends Hero implements Skill,Runnable,Robot {
 		super.pos=pos;
 	}
 	/**
-	 * 继承的普通攻击
-	 * {@inheritDoc}
-	 */
-	@Override
-		public void normalAttack(Hero hero) {
-			hero.getAttribute().HP-=super.getAttack();
-			System.out.println(super.getHeroName()+"对"+hero.getHeroName()+"造成了"+super.getAttack()+"点伤害");
-		}
-	/**
 	 *主动技能，发射一条线，对敌人造成伤害
 	 *!!!线程应考虑进去，每一秒展示？？？
 	 * {@inheritDoc}
@@ -50,18 +36,14 @@ public class HouYi extends Hero implements Skill,Runnable,Robot {
 			String[][] tempMap=new String[20][20];
 			for(int i=0;i<20;i++)
 				System.arraycopy(map.map[i], 0, tempMap[i], 0, map.map.length);
-			for(int i=pos.y+1;i<20;i++)
+			for(int i=pos.y+1,k=0;i<20&&k<3;i++,k++)
 			{
-				if(tempMap[pos.x][i]=="1")
-					break;
+//				if(tempMap[pos.x][i]=="1")
+//					break;
 				map.map[pos.x][i]="~";
-				try{Thread.sleep(1000);}
-				catch(InterruptedException e) {}
-//				show(tempMap);
 				//此处英雄技能伤害范围判断？
 				if(tempMap[pos.x][i]!="0")
 				{
-					map.map[pos.x][i]=tempMap[pos.x][i];
 					int j;
 					for(j=0;j<map.heros.size();j++)
 						if(map.heros.get(j).pos.x==pos.x&&map.heros.get(j).pos.y==i)
@@ -69,8 +51,10 @@ public class HouYi extends Hero implements Skill,Runnable,Robot {
 					map.heros.get(j).hurt(activeSkillHurt);
 					System.out.println(super.getHeroName()+"对"+map.map[pos.x][i]+"造成了"+activeSkillHurt+"点伤害");
 				}
-				else map.map[pos.x][i]="0";	
+//				else map.map[pos.x][i]="0";	
 			}
+			try{Thread.sleep(1000);}
+			catch(InterruptedException e) {}
 			for(int i=0;i<20;i++)
 				System.arraycopy(tempMap[i], 0, map.map[i], 0, map.map.length);
 		}
@@ -106,7 +90,9 @@ public class HouYi extends Hero implements Skill,Runnable,Robot {
 	@Override
 	public void run() {
 		for(int i=0;i<100;i++)
+		{
 			this.action(MapControl.basicMap);
+		}
 	}
 	
 	/**
@@ -125,6 +111,9 @@ public class HouYi extends Hero implements Skill,Runnable,Robot {
 			else this.RobotMove(pos1);
 		}
 		else this.RobotMove(pos1);
+		
+		try{Thread.sleep(1000);}
+		catch(InterruptedException e) {}
 	}
 	
 	/**
@@ -136,13 +125,13 @@ public class HouYi extends Hero implements Skill,Runnable,Robot {
 		int flag=0;//记录是否移动
 		if(Math.random()>0.5)
 		{
-			if(this.pos.x<=pos1.x&&this.pos.x>0&&MapControl.basicMap.map[this.pos.x-1][this.pos.y]=="0")
+			if(this.pos.x<=pos1.x&&this.pos.x>1&&MapControl.basicMap.map[this.pos.x-1][this.pos.y]=="0")
 			{
 				this.move("up");
 				flag=1;
 				MapControl.logger.debug("Robot move up");
 			}
-			else if(this.pos.x>pos1.x&&this.pos.x<20&&MapControl.basicMap.map[this.pos.x+1][this.pos.y]=="0")
+			else if(this.pos.x>pos1.x&&this.pos.x<19&&MapControl.basicMap.map[this.pos.x+1][this.pos.y]=="0")
 			{
 				this.move("down");
 				flag=1;
@@ -151,18 +140,19 @@ public class HouYi extends Hero implements Skill,Runnable,Robot {
 		}
 		else 
 		{
-			if(this.pos.y<=pos1.y&&this.pos.y>0&&MapControl.basicMap.map[this.pos.x][this.pos.y-1]=="0")
+			if(this.pos.y<=pos1.y&&this.pos.y>1&&MapControl.basicMap.map[this.pos.x][this.pos.y-1]=="0")
 			{
 				this.move("left");
 				flag=1;
 				MapControl.logger.debug("Robot move left");
 			}
-			else if(this.pos.y>pos1.y&&this.pos.y<20&&MapControl.basicMap.map[this.pos.x][this.pos.y+1]=="0")
+			else if(this.pos.y>pos1.y&&this.pos.y<19&&MapControl.basicMap.map[this.pos.x][this.pos.y+1]=="0")
 			{
 				this.move("right");
 				flag=1;
 				MapControl.logger.debug("Robot move right");
 			}
 		}
+		
 	}
 }

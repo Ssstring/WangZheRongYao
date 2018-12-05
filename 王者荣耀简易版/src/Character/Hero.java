@@ -14,6 +14,21 @@ public abstract class Hero implements Skill,Runnable,Robot{
 	private Attribute att;
 	private int attack;
 	public Position pos;
+	public int activeSkillHurt;
+	public int attackRange;
+	
+	public Hero() {
+		this.att=new Attribute(500, 500, 0);
+		this.attack=50;
+		this.activeSkillHurt=100;
+	}
+	
+	public Hero(Attribute att,int attack,int activeSkillHure) {
+		this.att=att;
+		this.attack=attack;
+		this.activeSkillHurt=activeSkillHure;
+	}
+	
 	/**
 	 * 设置英雄的名字，在本程序中，英雄名字在地图上出现
 	 * @param heroName
@@ -66,13 +81,13 @@ public abstract class Hero implements Skill,Runnable,Robot{
 		return this.attack;
 	}
 	/**
-	 * 普通攻击的抽象方法
+	 * 普通攻击的方法
+	 * TODO:need to judge the attack range and show the attack at the map;
 	 * @param hero
 	 */
-	public void normalAttack(Hero hero)
+	public void normalAttack(BasicMap map)
 	{
-		hero.getAttribute().HP-=this.getAttack();
-		System.out.println(this.getHeroName()+"对"+hero.getHeroName()+"造成了"+this.getAttack()+"点伤害");
+		
 	}
 	/**
 	 * hero中的移动方法

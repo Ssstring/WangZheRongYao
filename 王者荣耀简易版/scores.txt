@@ -4,11 +4,18 @@ HouYi
 A
 18 0
 add
-no
+yes
 HouYi
 B
 19 5
+add
+yes
+HouYi
+C
+1 17
 move
 0
 up
+activeSkill
+0
 end
