@@ -16,17 +16,20 @@ public abstract class Hero implements Skill,Runnable,Robot{
 	public Position pos;
 	public int activeSkillHurt;
 	public int attackRange;
+	public int team;
 	
 	public Hero() {
 		this.att=new Attribute(500, 500, 0);
 		this.attack=50;
 		this.activeSkillHurt=100;
+		attackRange=5;
 	}
 	
 	public Hero(Attribute att,int attack,int activeSkillHure) {
 		this.att=att;
 		this.attack=attack;
 		this.activeSkillHurt=activeSkillHure;
+		attackRange=5;
 	}
 	
 	/**
@@ -87,7 +90,59 @@ public abstract class Hero implements Skill,Runnable,Robot{
 	 */
 	public void normalAttack(BasicMap map)
 	{
+		int i;
+		char dir;
+		Position bpos=new Position(pos.x, pos.y);
+		i=judgeEnemyPos(map);
 		
+		if(i!=-1)
+		{
+			dir=getDirection(map.heros.get(i).pos);
+			switch (dir) {
+			case 'q':
+				while(bpos.x!=map.heros.get(i).pos.x&&map.heros.get(i).pos.y!=bpos.y)
+				{
+					bpos.x--;
+					bpos.y--;
+					map.map[bpos.x][bpos.y]="9";
+				}
+				break;
+			case 'e':
+				while(bpos.x!=map.heros.get(i).pos.x&&map.heros.get(i).pos.y!=bpos.y)
+				{
+					bpos.x--;
+					bpos.y++;
+					map.map[bpos.x][bpos.y]="9";
+				}
+				break;
+			case 'z':
+				while(bpos.x!=map.heros.get(i).pos.x&&map.heros.get(i).pos.y!=bpos.y)
+				{
+					bpos.x++;
+					bpos.y--;
+					map.map[bpos.x][bpos.y]="9";
+				}
+				break;
+			case 'c':
+				while(bpos.x!=map.heros.get(i).pos.x&&map.heros.get(i).pos.y!=bpos.y)
+				{
+					bpos.x++;
+					bpos.y++;
+					map.map[bpos.x][bpos.y]="9";
+				}
+				break;
+			default:
+				break;
+			}
+			if(bpos.x==map.heros.get(i).pos.x)
+			{
+				while(bpos.y + 1 < map.heros.get(i).pos.y)
+				{
+					
+				}
+			}
+		}
+			
 	}
 	/**
 	 * hero中的移动方法
@@ -110,6 +165,7 @@ public abstract class Hero implements Skill,Runnable,Robot{
 	public void run() {}
 	/**
 	 * 扫描地图，返回与该英雄最近的英雄
+	 * TODO:应该返回敌方英雄
 	 * @param map
 	 * @return
 	 */
@@ -129,5 +185,54 @@ public abstract class Hero implements Skill,Runnable,Robot{
 			}
 		}
 		return new Position(posx, posy);
+	}
+	/**
+	 * 返回在视野范围内的最近的敌方英雄在heros中的序号
+	 * @param map
+	 * @return
+	 */
+	public int judgeEnemyPos(BasicMap map) {
+		int posx=99,posy=99;
+		int k=-1;
+		for(int i=0;i<map.heros.size();i++)
+		{
+			if(Math.pow((map.heros.get(i).pos.y-this.pos.y), 2)
+					+Math.pow((map.heros.get(i).pos.x-this.pos.x), 2)
+					<Math.pow((posx-this.pos.x)+Math.abs(posy-this.pos.y), 2)
+					&&map.heros.get(i).team!=this.team)
+			{
+				posx=map.heros.get(i).pos.x;
+				posy=map.heros.get(i).pos.y;
+				k=i;
+			}
+		}
+		return k;
+	}
+	
+	public char getDirection(Position pos)
+	{
+		char dir;
+		if(pos.x < this.pos.x)
+		{
+			if(pos.y < this.pos.y)
+				dir='q';
+			else if(pos.y > this.pos.y)
+				dir='e';
+			else dir='u';
+		}
+		else if(pos.x > this.pos.x)
+		{
+			if(pos.y < this.pos.y)
+				dir='z';
+			else if(pos.y > this.pos.y)
+				dir='c';
+			else dir='d';
+		}
+		else {
+			if(pos.y < this.pos.y)
+				dir='l';
+			else dir='r';
+		}
+		return dir;
 	}
 }
