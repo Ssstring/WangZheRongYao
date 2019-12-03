@@ -2676,3 +2676,52 @@
 [DEBUG][2018-12-04 20:04:42] [Map.The.MapControl 162] Robot move right
 [DEBUG][2018-12-04 20:04:44] [Map.The.MapControl 156] Robot move left
 [DEBUG][2018-12-04 20:04:45] [Map.The.MapControl 162] Robot move right
+[DEBUG][2019-11-06 09:28:47] [Map.The.MapControl 140] add HouYipos(18,0)
+[DEBUG][2019-11-06 09:28:47] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-11-06 09:28:48] [Map.The.MapControl 140] add HouYipos(19,5)
+[DEBUG][2019-11-06 09:28:48] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-11-06 09:28:48] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-11-06 09:28:49] [Map.The.MapControl 140] add HouYipos(1,17)
+[DEBUG][2019-11-06 09:28:49] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-11-06 09:28:49] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-11-06 09:28:49] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-11-06 09:28:49] [Map.The.MapControl 116] CHP=500
+[DEBUG][2019-11-06 09:28:50] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-11-06 09:28:50] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-11-06 09:28:50] [Map.The.MapControl 148] move to pos(17,0)
+[DEBUG][2019-11-06 09:28:50] [Map.The.MapControl 85] move
+[DEBUG][2019-11-06 09:28:50] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-11-06 09:28:50] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-11-06 09:28:50] [Map.The.MapControl 116] CHP=500
+[DEBUG][2019-11-06 09:28:51] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-11-06 09:28:52] [Map.The.MapControl 155] A use active skill
+[DEBUG][2019-11-06 09:28:52] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-11-06 09:28:52] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-11-06 09:28:52] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-11-06 09:28:52] [Map.The.MapControl 116] CHP=500
+[DEBUG][2019-11-06 09:28:53] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-11-06 09:28:54] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:06] [Map.The.MapControl 140] add HouYipos(18,0)
+[DEBUG][2019-12-03 18:17:06] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-12-03 18:17:07] [Map.The.MapControl 140] add HouYipos(19,5)
+[DEBUG][2019-12-03 18:17:07] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-12-03 18:17:07] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-12-03 18:17:07] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:08] [Map.The.MapControl 140] add HouYipos(1,17)
+[DEBUG][2019-12-03 18:17:08] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-12-03 18:17:08] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-12-03 18:17:08] [Map.The.MapControl 116] CHP=500
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 148] move to pos(17,0)
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 85] move
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 116] CHP=500
+[DEBUG][2019-12-03 18:17:10] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:10] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 155] A use active skill
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 116] CHP=500

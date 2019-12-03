@@ -1,24 +1,12 @@
-[DEBUG][2018-12-04 20:04:07] [Map.The.MapControl 116] BHP=500
-[DEBUG][2018-12-04 20:04:07] [Map.The.MapControl 116] CHP=500
-[DEBUG][2018-12-04 20:04:08] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:09] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:10] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:11] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:12] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:13] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:14] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:17] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:19] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:21] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:22] [Map.The.MapControl 156] Robot move left
-[DEBUG][2018-12-04 20:04:24] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:25] [Map.The.MapControl 156] Robot move left
-[DEBUG][2018-12-04 20:04:28] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:29] [Map.The.MapControl 156] Robot move left
-[DEBUG][2018-12-04 20:04:30] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:32] [Map.The.MapControl 156] Robot move left
-[DEBUG][2018-12-04 20:04:36] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:39] [Map.The.MapControl 156] Robot move left
-[DEBUG][2018-12-04 20:04:42] [Map.The.MapControl 162] Robot move right
-[DEBUG][2018-12-04 20:04:44] [Map.The.MapControl 156] Robot move left
-[DEBUG][2018-12-04 20:04:45] [Map.The.MapControl 162] Robot move right
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 148] move to pos(17,0)
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 85] move
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-12-03 18:17:09] [Map.The.MapControl 116] CHP=500
+[DEBUG][2019-12-03 18:17:10] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:10] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 153] Robot move right
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 155] A use active skill
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 116] AHP=500
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 116] BHP=500
+[DEBUG][2019-12-03 18:17:11] [Map.The.MapControl 116] CHP=500
